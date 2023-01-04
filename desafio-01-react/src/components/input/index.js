@@ -1,13 +1,12 @@
-import { InputContent } from "./style";
 
+import { InputContainer } from './styles';
 
-const Input = () =>{
+const Input = ({value}) => {
     return (
-      <InputContent className="App">
-       <input/>
-      </InputContent>
+      <InputContainer>
+       <input disabled value={value}/>
+      </InputContainer>
     );
   }
   
   export default Input;
-  
