@@ -22,6 +22,11 @@ width: 14rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @media only screen and (min-width: 768px) {
+        width: 100%;
+    
+        
+    }
 `
 
 export const Column = styled.div`

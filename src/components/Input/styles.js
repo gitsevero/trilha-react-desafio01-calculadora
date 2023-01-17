@@ -4,11 +4,9 @@ export const InputContainer = styled.div`
     width: 14rem;
     height: 75px;
     background-color: #AAAAFF;
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
     font-size: 24px;
     font-family: 'Roboto';
     
@@ -25,5 +23,11 @@ export const InputContainer = styled.div`
         font-size: 24px;
         font-family: 'Roboto';
         color: #FFFFFF;
+        
+    }
+    @media only screen and (min-width: 768px) {
+        width: 100%;
+    
+        
     }
 `
