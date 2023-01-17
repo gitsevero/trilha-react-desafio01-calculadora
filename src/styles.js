@@ -17,6 +17,7 @@ export const Content = styled.div`
 `
 
 export const Row = styled.div`
+width: 14rem;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
