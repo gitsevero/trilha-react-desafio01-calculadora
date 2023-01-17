@@ -13,11 +13,16 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     background-color: #FFFFFF;
-    width: 50%;
+    width: 90%;
+    @media only screen and (min-width: 768px) {
+        width: 40%;
+    
+        
+    }
 `
 
 export const Row = styled.div`
-width: 14rem;
+width: 100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;

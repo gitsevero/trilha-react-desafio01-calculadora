@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InputContainer = styled.div`
-    width: 14rem;
+    width: 100%;
     height: 75px;
     background-color: #AAAAFF;
     display: flex;
